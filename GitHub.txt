@@ -1,0 +1,50 @@
+Optimization
+
+a+b+c+.......a66
+
+sum=a+b+c+.......a66
+avg=sum/66
+
+
+
+
+
+
+Upload Your experiments in GitHub Storage Repository
+1.Github.com
+2.SignUp and enter the credential(Use aec mail id)
+
+3.Login into the GitHUb(github.com/login)
+4.Create Repository(Folder)
+4Procedure:Click New for Repository
+4.Add File Name for repository
+5.Decription
+6.Select Public
+7.Click on Create Repository
+8.Create a file under repository
+9.Add content
+10.Click On Commit
+
+Another way of Uploading File
+
+1.Click on Add File->Upload File
+2.Choose your file
+3.Commit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
