@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Website | Home </title>
+    <link rel="stylesheet" href="web.css">
+    <meta http-equiv="refresh" content="30">
+    <style>
+        fieldset
+        {
+            border:2px solid rgb(23, 213, 226);
+            border-radius: 7px;
+        }
+        figcaption{
+            font-size: 40px;
+        }
+        td{
+            padding: 10px;
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap:20px
+        }
+        .main .mern{
+            height: 70vh;
+            float: left;
+            width:400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background:linear-gradient(to left,rgba(128, 126, 126, 0.315),rgba(136, 113, 113, 0.26));
+           backdrop-filter:  blur(40px);
+           border-radius: 8px;
+        }
+        .main .mean{
+            height:70vh;
+            width:400px;
+            float:right;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+           border-radius: 8px;
+           background:linear-gradient(to left,rgba(128, 126, 126, 0.315),rgba(136, 113, 113, 0.26));
+           backdrop-filter:  blur(40px);
+        }
+        .a{
+            box-shadow: 0 6px 17px 2px rgba(255, 255, 255, 0.753),
+     0 -7px 19px 5px rgba(255, 255, 255, 0.384),1px 8px 22px 7px rgba(172, 170, 170, 0.493);
+      
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <span>Mern</span>
+        </div>
+        <div class="list">
+            <ul>
+                <li class="a"><a href="home_temp.htm" >Home</a></li>
+                <li ><a href="contact.htm" >Contact Us</a></li>
+                <li ><a href="about.htm" >About</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div class="mern">
+            <img src="Mernstack.png" alt="mern-logo" width="300px"><br>
+            <figcaption>Mern Stack</figcaption>
+            <fieldset>
+                <table>
+                    <tr>
+                        <td>M</td>
+                        <td>-</td>
+                        <td>MongoDB</td>
+                    </tr>
+                    <tr>
+                        <td>E</td>
+                        <td>-</td>
+                        <td>Express.js</td>
+                    </tr>
+                    <tr>
+                        <td>R</td>
+                        <td>-</td>
+                        <td>React.js</td>
+                    </tr>
+                    <tr>
+                        <td>N</td>
+                        <td>-</td>
+                        <td>Node.js</td>
+                    </tr>
+                </table>
+            </fieldset>
+
+        </div>
+        <div class="mean">
+            <img src="Meanstack.png" alt="mern-logo" width="300px"><br>
+            <figcaption>Mean Stack</figcaption>
+            <fieldset>
+                <table>
+                    <tr>
+                        <td>M</td>
+                        <td>-</td>
+                        <td>MongoDB</td>
+                    </tr>
+                    <tr>
+                        <td>E</td>
+                        <td>-</td>
+                        <td>Express.js</td>
+                    </tr>
+                    <tr>
+                        <td>A</td>
+                        <td>-</td>
+                        <td>Angular.js</td>
+                    </tr>
+                    <tr>
+                        <td>N</td>
+                        <td>-</td>
+                        <td>Node.js</td>
+                    </tr>
+                </table>
+            </fieldset>
+        </div>
+    </div>
+    <div class="footer">
+        <h3>Privacy Policies © 2002-2022 all rights are reserved</h3>
+        <a href="contact.htm">Contact Us</a>
+    </div>
+</body>
+</html>

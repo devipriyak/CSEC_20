@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+    transition: all .2s ease-in;
+}
+body{
+    background:url(02.jpg) /*url(02.jpg)*/;
+    background-size: 220vh 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header{
+    background-color:rgb(13, 181, 223);
+    height: 12vh;
+    width:100%;
+}
+.header .logo{
+    background: url(download.jpg);
+    height: 50px;
+    width:50px;
+    background-size: cover;
+    border:2px solid white;
+    float: left;
+    margin: .8%;
+    border-radius: 50%;
+}
+.header .logo span{
+    position: absolute;
+    transform: translateY(36px) ;
+    text-transform: uppercase;
+    color:rgb(255,255 , 255);
+    cursor: pointer;
+}
+.header .list{
+    float: right;
+    height: 40px;
+    width:30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .list ul{
+display: flex;
+gap: 30px;
+align-items: center;
+justify-content: center;
+}
+.header .list ul li{
+    background-color: aliceblue;
+    margin-top: 30px;
+    border: 1px solid wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width:100px;
+    border-radius: 5px;
+}
+.header .list ul li a{
+    text-decoration: none;
+    color: rgb(255, 94, 0);
+}
+.header .list ul li a:hover{
+    color:rgb(250, 209, 29)
+
+}
+.header .logo:hover{
+    box-shadow: 0 6px 7px 2px rgba(255, 255, 255, 0.753),
+    0 -7px 10px 6px rgba(255, 255, 255, 0.384);
+}
+.main{
+    height: 76vh;
+    width:100%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    height:12vh;
+    width: 100%;
+    background-color:rgb(13, 181, 223);
+}
+.footer h3{
+    margin: 9px;
+    color: rgb(247, 17, 17);
+}
+.footer a{
+    color:rgb(21, 5, 59)
+}
